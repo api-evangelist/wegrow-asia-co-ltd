@@ -1,8 +1,25 @@
 aid: wegrow-asia-co-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wegrow-asia-co-ltd.png
 name: WeGrow asia CO., LTD.
-description: WeGrow asia CO., LTD. is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company
+  operating a franchise model for modern, technology-driven farming. It pairs 24-hour AI-assisted
+  remote crop management with a transparent farmer profit-sharing model, specializing in high-value
+  strawberries and cantaloupes while handling production, labor management, marketing, and logistics
+  end to end ("you provide the land, we provide the labor and expertise"). WeGrow surfaced as a 500
+  Global portfolio company. As of this enrichment pass it publishes a bilingual (TW/EN) marketing
+  website only and exposes no public API, developer portal, documentation, or /.well-known discovery
+  surface — every probed developer and well-known path returned HTTP 404.'
 url: https://raw.githubusercontent.com/api-evangelist/wegrow-asia-co-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Smart Farming
+- Taiwan
+- Franchise
+- Food
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/wegrow-asia-co-ltd-domain-security.yml
 - type: Website
   url: https://wegrow.asia
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
