@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wegrow-asia-co-ltd.png
-name: WeGrow asia CO., LTD.
+name: WeGrow asia
 description: 'WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company
   operating a franchise model for modern, technology-driven farming. It pairs 24-hour AI-assisted
   remote crop management with a transparent farmer profit-sharing model, specializing in high-value
@@ -65,3 +65,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: WeGrow asia CO., LTD.
